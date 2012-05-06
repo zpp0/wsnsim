@@ -1,0 +1,12 @@
+[submodule "src/simulator"]
+	path = src/simulator
+	url = git://github.com/zpp0/wsnsim-simulator.git
+[submodule "src/postprocessor"]
+	path = src/postprocessor
+	url = git://github.com/snip89/wsnsim-postprocessor.git
+[submodule "src/libs/projectData"]
+	path = src/libs/projectData
+	url = git://github.com/zpp0/wsnsim-libs-projectData.git
+[submodule "examples"]
+	path = examples
+	url = git://github.com/zpp0/wsnsim-examples.git
