@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <Simulator>
+        <version>1</version>
+    </Simulator>
+    <Project>
+        <autor></autor>
+        <projectName></projectName>
+        <comment></comment>
+    </Project>
+    <Env>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+        <maxTime>1</maxTime>
+        <timeUnits>0</timeUnits>
+    </Env>
+    <NodeTypesList/>
+    <ProcessesList>
+        <Process>
+            <processID>0</processID>
+            <name>asdasd</name>
+            <units>asdasd1</units>
+            <LuaFile></LuaFile>
+            <comment></comment>
+        </Process>
+        <Process>
+            <processID>1</processID>
+            <name>zxczxc</name>
+            <units>zxczxc1</units>
+            <LuaFile></LuaFile>
+            <comment></comment>
+        </Process>
+    </ProcessesList>
+    <NodesList/>
+</main>

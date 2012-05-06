@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <Simulator>
+        <version>0</version>
+    </Simulator>
+    <Project>
+        <autor>Ярыгин Алексанлр</autor>
+        <projectName>Проверка работы отправки сообщения по стандарту</projectName>
+        <comment></comment>
+    </Project>
+    <Env>
+        <X>100</X>
+        <Y>100</Y>
+        <Z>100</Z>
+        <maxTime>1</maxTime>
+        <timeUnits>4</timeUnits>
+    </Env>
+    <NodeTypesList>
+        <NodeType>
+            <nodeTypeID>0</nodeTypeID>
+            <name>master</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-94</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList/>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile>/home/zpp/src/wsn/simulator/project/test-std/master.lua</luaFile>
+            <Functions>
+                <Function>
+                    <funcLabel>Функция инициализации оборудования</funcLabel>
+                    <funcName>initHardware</funcName>
+                </Function>
+                <Function>
+                    <funcLabel>Обработчик прервываний по радио</funcLabel>
+                    <funcName>radioInterruptHandler</funcName>
+                </Function>
+                <Function>
+                  <funcLabel>Время включения питания на узле</funcLabel>
+                  <funcName>startTime</funcName>
+                </Function>
+            </Functions>
+        </NodeType>
+        <NodeType>
+            <nodeTypeID>1</nodeTypeID>
+            <name>slave</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-94</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList/>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile>/home/zpp/src/wsn/simulator/project/test-std/slave.lua</luaFile>
+            <Functions>
+                <Function>
+                    <funcLabel>Обработчик прерываний по таймеру</funcLabel>
+                    <funcName>timerInterruptHandler</funcName>
+                </Function>
+                <Function>
+                    <funcLabel>Функция инициализации оборудования</funcLabel>
+                    <funcName>initHardware</funcName>
+                </Function>
+                <Function>
+                    <funcLabel>Обработчик прервываний по радио</funcLabel>
+                    <funcName>radioInterruptHandler</funcName>
+                </Function>
+            </Functions>
+        </NodeType>
+    </NodeTypesList>
+    <ProcessesList/>
+    <NodesList>
+        <node>
+            <nodeID>0</nodeID>
+            <nodeTypeID>0</nodeTypeID>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <random>1</random>
+        </node>
+        <node>
+            <nodeID>1</nodeID>
+            <nodeTypeID>1</nodeTypeID>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <random>1</random>
+        </node>
+    </NodesList>
+</main>

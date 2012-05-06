@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <Simulator>
+        <version>1</version>
+    </Simulator>
+    <Project>
+        <autor></autor>
+        <projectName></projectName>
+        <comment></comment>
+    </Project>
+    <Env>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+        <maxTime>1</maxTime>
+        <timeUnits>0</timeUnits>
+    </Env>
+    <NodeTypesList>
+        <NodeType>
+            <nodeTypeID>0</nodeTypeID>
+            <name>asdasdasd</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-94</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList/>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile></luaFile>
+            <functions>
+                <TimerInterruptHandler>zxcas</TimerInterruptHandler>
+                <StartUp>asdasd</StartUp>
+                <RadioRXInterruptHandler>1231231</RadioRXInterruptHandler>
+            </functions>
+        </NodeType>
+    </NodeTypesList>
+    <ProcessesList/>
+    <NodesList/>
+</main>

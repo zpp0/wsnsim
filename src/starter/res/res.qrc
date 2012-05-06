@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="res">
+    <file>view-history.png</file>
+    <file>arrow-right.png</file>
+    <file>dialog-close.png</file>
+    <file>dialog-ok-apply.png</file>
+    <file>dialog-ok.png</file>
+    <file>document-edit.png</file>
+    <file>document-open.png</file>
+    <file>process-stop.png</file>
+  </qresource>
+</RCC>

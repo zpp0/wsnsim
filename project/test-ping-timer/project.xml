@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <Simulator>
+        <version>1</version>
+    </Simulator>
+    <Project>
+        <autor>Ярыгин Александр</autor>
+        <projectName>Ping с таймером</projectName>
+        <comment>Создаются 2 узла. Первый узел отправляет сообщение второму, второй отвечает на него.
+После получения ответа, первый узел засыпает на 10 секунд.</comment>
+    </Project>
+    <Env>
+        <X>10</X>
+        <Y>10</Y>
+        <Z>10</Z>
+        <maxTime>10</maxTime>
+        <timeUnits>3</timeUnits>
+    </Env>
+    <NodeTypesList>
+        <NodeType>
+            <nodeTypeID>0</nodeTypeID>
+            <name>master</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-94</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList/>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile>/home/zpp/src/wsn/simulator/project/test-ping-timer/master.lua</luaFile>
+            <functions/>
+        </NodeType>
+        <NodeType>
+            <nodeTypeID>1</nodeTypeID>
+            <name>slave</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-94</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList/>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile>/home/zpp/src/wsn/simulator/project/test-ping-timer/slave.lua</luaFile>
+            <functions/>
+        </NodeType>
+    </NodeTypesList>
+    <ProcessesList/>
+    <NodesList>
+        <node>
+            <nodeID>0</nodeID>
+            <nodeTypeID>0</nodeTypeID>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <random>0</random>
+        </node>
+        <node>
+            <nodeID>1</nodeID>
+            <nodeTypeID>1</nodeTypeID>
+            <X>10</X>
+            <Y>10</Y>
+            <Z>10</Z>
+            <random>0</random>
+        </node>
+    </NodesList>
+</main>

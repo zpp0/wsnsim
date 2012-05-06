@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <Simulator>
+        <version>1</version>
+    </Simulator>
+    <Project>
+        <autor>Ярыгин Александр</autor>
+        <projectName>Измерение температуры</projectName>
+        <comment>Создается 1 узел и 2-3 изменяющихся во времени процесса.
+Для каждого процесса задается время, через которое его нужно измерять. 
+Узел отслеживает промежутки времени и проводит измерения этих процессов.</comment>
+    </Project>
+    <Env>
+        <X>10</X>
+        <Y>10</Y>
+        <Z>10</Z>
+        <maxTime>100</maxTime>
+        <timeUnits>3</timeUnits>
+    </Env>
+    <NodeTypesList>
+        <NodeType>
+            <nodeTypeID>0</nodeTypeID>
+            <name>nodeType</name>
+            <TransmitterPower>0</TransmitterPower>
+            <ReceiverSensivity>-75</ReceiverSensivity>
+            <freqBand>0</freqBand>
+            <directionalAntenna>0</directionalAntenna>
+            <Unrenewable>0</Unrenewable>
+            <Energy>0</Energy>
+            <SensorsList>
+                <sensor>
+                    <sensorID>0</sensorID>
+                    <processID>0</processID>
+                    <name>temperature</name>
+                    <units></units>
+                    <minValue>-45</minValue>
+                    <maxValue>60</maxValue>
+                </sensor>
+                <sensor>
+                    <sensorID>1</sensorID>
+                    <processID>1</processID>
+                    <name>illuminance</name>
+                    <units>лк</units>
+                    <minValue>5</minValue>
+                    <maxValue>50</maxValue>
+                </sensor>
+                <sensor>
+                    <sensorID>2</sensorID>
+                    <processID>2</processID>
+                    <name>pressure</name>
+                    <units>Па</units>
+                    <minValue>1</minValue>
+                    <maxValue>100</maxValue>
+                </sensor>
+            </SensorsList>
+            <Movement>0</Movement>
+            <RealClock>0</RealClock>
+            <RealClockProcessDependenciesList/>
+            <luaFile>/home/zpp/simulator/project/test-measure/measure.lua</luaFile>
+        </NodeType>
+    </NodeTypesList>
+    <ProcessesList>
+        <Process>
+            <processID>0</processID>
+            <name>temperature</name>
+            <units></units>
+            <LuaFile>/home/zpp/simulator/project/test-measure/processes.lua</LuaFile>
+            <comment></comment>
+        </Process>
+        <Process>
+            <processID>1</processID>
+            <name>pressure</name>
+            <units>Па</units>
+            <LuaFile>/home/zpp/simulator/project/test-measure/processes.lua</LuaFile>
+            <comment>МПа</comment>
+        </Process>
+        <Process>
+            <processID>2</processID>
+            <name>illuminance</name>
+            <units>лк</units>
+            <LuaFile>/home/zpp/simulator/project/test-measure/processes.lua</LuaFile>
+            <comment></comment>
+        </Process>
+    </ProcessesList>
+    <NodesList>
+        <node>
+            <nodeID>0</nodeID>
+            <nodeTypeID>0</nodeTypeID>
+            <X>3</X>
+            <Y>3</Y>
+            <Z>3</Z>
+            <random>0</random>
+        </node>
+    </NodesList>
+</main>
