@@ -1,2 +1,4 @@
 bin/
 *Makefile
+/temp/bad-log.bin
+/temp/*
