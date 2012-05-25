@@ -13,3 +13,6 @@
 [submodule "src/postprocessor"]
 	path = src/postprocessor
 	url = git://github.com/snip89/wsnsim-postprocessor.git
+[submodule "src/starter"]
+	path = src/starter
+	url = git://github.com/zpp0/wsnsim-starter.git
