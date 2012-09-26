@@ -16,3 +16,6 @@
 [submodule "src/starter"]
 	path = src/starter
 	url = git://github.com/zpp0/wsnsim-starter.git
+[submodule "src/libs/SnifferSettings"]
+	path = src/libs/SnifferSettings
+	url = git://github.com/Amagor/SnifferSettings.git
