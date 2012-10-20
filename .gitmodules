@@ -19,3 +19,6 @@
 [submodule "src/libs/SnifferSettings"]
 	path = src/libs/SnifferSettings
 	url = git://github.com/Amagor/SnifferSettings.git
+[submodule "src/libs/globalSettings"]
+	path = src/libs/globalSettings
+	url = git://github.com/snip89/wsnsim-libs-globalSettings.git
