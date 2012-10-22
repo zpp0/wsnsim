@@ -25,3 +25,6 @@
 [submodule "src/sniffer"]
 	path = src/sniffer
 	url = git://github.com/Amagor/wsnsim-sniffer
+[submodule "src/libs/qextserialport"]
+	path = src/libs/qextserialport
+	url = https://code.google.com/p/qextserialport
