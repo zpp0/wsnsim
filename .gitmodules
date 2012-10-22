@@ -22,3 +22,6 @@
 [submodule "src/libs/globalSettings"]
 	path = src/libs/globalSettings
 	url = git://github.com/snip89/wsnsim-libs-globalSettings.git
+[submodule "src/sniffer"]
+	path = src/sniffer
+	url = git://github.com/Amagor/wsnsim-sniffer
