@@ -28,3 +28,6 @@
 [submodule "src/libs/qextserialport"]
 	path = src/libs/qextserialport
 	url = https://code.google.com/p/qextserialport
+[submodule "src/libs/formatData"]
+	path = src/libs/formatData
+	url = git://github.com/snip89/wsnsim-libs-formatData.git
