@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS = projectData \
 	  SnifferSettings \
-	  globalSettings
+	  globalSettings \
+	  formatData
