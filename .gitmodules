@@ -28,3 +28,6 @@
 [submodule "src/libs/formatData"]
 	path = src/libs/formatData
 	url = git://github.com/snip89/wsnsim-libs-formatData.git
+[submodule "src/libs/luajit"]
+	path = src/libs/luajit
+	url = http://luajit.org/git/luajit-2.0.git
