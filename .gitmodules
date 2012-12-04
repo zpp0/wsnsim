@@ -31,3 +31,9 @@
 [submodule "src/libs/luajit"]
 	path = src/libs/luajit
 	url = http://luajit.org/git/luajit-2.0.git
+[submodule "src/libs/moduleData"]
+	path = src/libs/moduleData
+	url = git://github.com/zpp0/wsnsim-libs-moduleData.git
+[submodule "src/simulator-modules"]
+	path = src/simulator-modules
+	url = git@github.com:zpp0/wsnsim-simulator-modules.git
